@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "limop.upMyIp.App",
+            "projectName": "upMyIP_b690b2d2"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "upMyIP_b690b2d2"
+        },
+        {
+            "name": "Launch Python",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "stopOnEntry": false
+        }
+    ]
+}

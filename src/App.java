@@ -3,9 +3,13 @@ import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.Enumeration;
+import javax.swing.*;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) extends JFrame throws Exception {
+        
+        JOptionPane.showMessageDialog(null, "Message");
+
         String ip = getIP(NetworkInterface.getNetworkInterfaces());
         if (ip == null) System.exit(1);
 

@@ -3,6 +3,7 @@ import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.Enumeration;
+import javax.swing.*;
 
 import java.awt.TrayIcon.MessageType;
 import java.awt.AWTException;
